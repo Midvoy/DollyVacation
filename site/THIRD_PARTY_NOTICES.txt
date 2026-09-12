@@ -46,3 +46,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+SCENE PROPS (v0.4)
+Water soda: original trap_123_stmbot Spine model, PRTS.
+Steam: adapted C_Leg_Somk cloud from the original Dolly model, PRTS; not the full battlefield steam effect.
+Pool mark: Decorative Geyser icon, https://arknights.wiki.gg/images/0/06/Decorative_Geyser.png
+Pool water and range indicators are drawn by the fan game.
