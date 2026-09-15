@@ -52,3 +52,9 @@ Water soda: original trap_123_stmbot Spine model, PRTS.
 Steam: adapted C_Leg_Somk cloud from the original Dolly model, PRTS; not the full battlefield steam effect.
 Pool mark: Decorative Geyser icon, https://arknights.wiki.gg/images/0/06/Decorative_Geyser.png
 Pool water and range indicators are drawn by the fan game.
+
+MEDIA OPTIMIZATION (v0.7)
+The five existing event music tracks are converted to MP3 without trimming.
+Raster artwork is converted to WebP; Dolly, sheep and prop sprites use lossless encoding at their original dimensions.
+These format conversions do not change the ownership or grant additional rights to the original materials.
+Music: Arknights / Hypergryph / Monster Siren Records and the respective credited rights holders.

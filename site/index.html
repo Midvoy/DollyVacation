@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#492f43" />
     <meta name="description" content="多利的假期：明日方舟火山旅梦同人温泉碰撞游戏。蓄力撞击，带上同行干员，把毛绒绒的小羊送进温泉。" />
-    <link rel="icon" href="./assets/dolly.png" />
+    <script>
+      try {
+        const save=JSON.parse(localStorage.getItem('dolly-holiday:save:v1')||'null');
+        if(save?.settings?.music!==false){
+          const ids=['day','night','battle-1','battle-2','boss'];
+          const id=ids.includes(save?.settings?.musicTrack)?save.settings.musicTrack:'day';
+          const preload=document.createElement('link');preload.rel='preload';preload.as='fetch';preload.href='./assets/music/'+id+'.mp3';preload.type='audio/mpeg';preload.crossOrigin='anonymous';preload.setAttribute('fetchpriority','high');document.head.append(preload);
+        }
+      } catch {}
+    </script>
+    <link rel="icon" href="./assets/dolly.webp" />
     <title>多利的假期 · 温泉旅程</title>
-    <script type="module" crossorigin src="./assets/index-B8Iw9Wfb.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BZZ53d4t.css">
+    <script type="module" crossorigin src="./assets/index-rpW_gNpN.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-gNAjdGf1.css">
   </head>
   <body>
     <div id="app"></div>
